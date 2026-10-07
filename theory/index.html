@@ -4,10 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FRONTEND</title>
+    <link rel="stylesheet" href="./CSS/styles.css">
 </head>
 <body>
     Test
     <header>
+        <figure>
+            <img src="./images/beautiful-shot-white-british-shorthair-kitten_181624-57681.avif" alt="Котик">
+            <figcaption>Котик Тимофей</figcaption>
+        </figure>
+<ul>
+    <li><a href="mfua.ru">Текст1</a></li> <!--Можно их комбинировать вместе-->
+    <li>Текст2</li>
+    <li>Текст3</li>
+    <li>Текст4</li>
+</ul>
+
+
+ <ol>
+    <li>Текст1</li>
+    <li>Текст2</li>
+    <li>Текст3</li>
+    <li>Текст4</li>
+</ol>
+
+
+        
         <h1>НАШ ИНТЕРНЕТ МАГАЗИН (h1)</h1>
         ЭТО HEADER <br>(РОДИТЕЛЬ)
         <nav>
@@ -32,6 +54,87 @@
     </header>
 
     <main>
+        <div class="firstDiv">Это первый DIV</div>        <!--Это уже тесты атрибутов-->
+        <div>Это второй DIV</div>
+        <div>Это третий DIV</div>
+        <div>Это четвертый DIV</div>
+
+
+
+
+
+
+
+
+<input type="text">
+<input type="email">
+<input type="password">
+<input type="number" min="0" step="1">
+<input type="date">
+<input type="checkbox">
+<input type="radio">
+<input type="file">
+<textarea>Большое поле для ввода</textarea>
+
+
+
+<br>
+<select>
+    <option>DivanBoss</option>
+    <option>DimanBoss</option>
+</select>
+        
+        
+        
+        
+        
+        
+    
+<p>
+        <input placeholder="введите email">  <!--Просто пример еще один-->    <!--Внутри кнопки текст-->
+</p>
+    
+        <table>
+        <thead>
+        <tr>
+            <th>Артикул</th>
+            <th>Название</th>
+            <th>Цена</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>123</td>
+            <td>DivanBoss1</td>
+            <td>50000</td>
+        </tr>
+               <tr>
+            <td>123</td>
+            <td>DivanBoss1</td>
+            <td>50000</td>
+        </tr>
+    </tbody>
+    <tfoot>
+    </tfoot>
+</table>
+
+
+
+<form action="./scripts/scriptform.js" method="POST"> <!--Это как бы строки логина и пароля-->
+    <div>
+        <label for="login">Логин</label>
+        <input name="login" required type="email">
+    </div>
+    <div>
+        <label>Пароль</label>
+        <input>
+    </div>
+    <button type="submit">Отправить</button>
+
+</form>
+
+
+<p> <!--БЫВШАЯ СТРУТУРА С ПЕРВОЙ ПАРЫ НАЧАЛО-->
         ЭТО <strong>MAIN</strong>(РОДИТЕЛЬ)
         <article>
             ЭТО ARTICLE (ДОЧЕРНИЙ 1)
@@ -42,10 +145,13 @@
         <aside>
             ЭТО ASIDE (ДОЧЕРНИЙ 5)
         </aside>
+</p>
     </main>
 
     <footer>
         ЭТО FOOTER
     </footer>
+
+    
 </body>
 </html>
