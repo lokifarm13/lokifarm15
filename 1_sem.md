@@ -296,7 +296,27 @@ ul li {
     ...
 }
 
+Псевдоэлемент (обращение к третьему элементу из всех)
+
+.headerDiv:nth-child(3) {
+    background-color: chartreuse;
+}
+
 ## Комментарии
 /*
 */
 ctrl+?
+
+ТАК ДЕЛАТЬ ПЛОХО:
+<ul>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
+
+ТАК ДЕЛАТЬ ХОРОШО:
+<ul class="cars_models">
+    <li>Nissan</li>
+    <li>Hybdai</li>
+    <li>Opel</li>
+</ul>
